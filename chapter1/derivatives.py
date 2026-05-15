@@ -16,4 +16,4 @@ def deriv(func: Callable[[np.ndarray], np.ndarray], input_: np.ndarray, delta: f
 input_ = np.array([3.0])
 result = deriv(equation, input_)
 
-print(f'Turunan di titik {input_} adalah: {result}')
+print(f'derivatives at {input_} x^2 : {result}')
